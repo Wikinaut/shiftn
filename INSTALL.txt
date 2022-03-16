@@ -1,0 +1,10 @@
+sudo apt install g++
+sudo apt install cmake
+sudo apt install libopencv-dev
+ 
+cmake .
+make
+./burns
+
+Das erzeugt dann aus Ullsteinhaus.jps → Ullsteinhaus_Linien.png und Ullsteinhaus_Linien.txt, und man sieht zumindest, dass der Code funktioniert.
+

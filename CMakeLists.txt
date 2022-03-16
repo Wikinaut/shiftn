@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.0 FATAL_ERROR)
+cmake_policy(SET CMP0074 NEW)
+project(burns)
+find_package(OpenCV REQUIRED)
+add_executable (burns burns.cpp)
+target_link_libraries (burns ${OpenCV_LIBS})
